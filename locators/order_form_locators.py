@@ -1,0 +1,23 @@
+from selenium.webdriver.common.by import By
+
+field_name = [By.XPATH, ".//input[@placeholder = '* Имя']"]
+field_surname = [By.XPATH, ".//input[@placeholder = '* Фамилия']"]
+field_address = [By.XPATH, ".//input[@placeholder = '* Адрес: куда привезти заказ']"]
+field_metro = [By.XPATH, ".//input[@placeholder = '* Станция метро']"]
+metro_1 = [By.XPATH, "//ul/li[@data-value ='2']/button/div[text()='Черкизовская']"]
+metro_2 = [By.XPATH, "//ul/li[@data-value ='232']/button/div[text()='Зорге']"]
+field_phone_number = [By.XPATH, ".//input[@placeholder = '* Телефон: на него позвонит курьер']"]
+button_further = [By.XPATH, ".//button[text() = 'Далее']"]
+form_about_rent = [By.XPATH, ".//div[@class='Order_Header__BZXOb']"]
+form_about_rent_text = 'Про аренду'
+date = [By.XPATH, ".//input[@placeholder = '* Когда привезти самокат']"]
+date_today = [By.XPATH, ".//div[@class ='react-datepicker__week']/div[contains(@class,'today')]"]
+date_tomorrow = [By.XPATH, ".//div[@class ='react-datepicker__week']/div[contains(@class,'today')]//following::div[contains(@class,'day')]"]
+date_fifth_day = [By.XPATH, ".//div[@class ='react-datepicker__week']/div[contains(@class,'today')]//following::div[5][contains(@class,'day')]"]
+rental_period = [By.XPATH, ".//div[text() = '* Срок аренды']"]
+period_two_days = [By.XPATH, ".//div[text()='двое суток']"]
+period_four_days = [By.XPATH, ".//div[text()='четверо суток']"]
+black_color = [By.XPATH, ".//input[@id = 'black']"]
+grey_color = [By.XPATH, ".//input[@id = 'grey']"]
+field_comment = [By.XPATH, ".//input[@placeholder = 'Комментарий для курьера']"]
+order_button = [By.XPATH, "//button[contains(@class,'Button_Middle__1CSJM') and text()='Заказать']"]
